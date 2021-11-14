@@ -22,23 +22,23 @@
       <envs />
     </TaskOptions>
     <TaskOptions isEnabled="true">
-      <option name="arguments" value="$FileName$:$FileNameWithoutExtension$.css" />
+      <option name="arguments" value="$FileDir$:$ProjectFileDir$/css" />
       <option name="checkSyntaxErrors" value="true" />
       <option name="description" />
       <option name="exitCodeBehavior" value="ERROR" />
       <option name="fileExtension" value="sass" />
       <option name="immediateSync" value="true" />
       <option name="name" value="Sass" />
-      <option name="output" value="$FileNameWithoutExtension$.css:$FileNameWithoutExtension$.css.map" />
+      <option name="output" value="$ProjectFileDir$" />
       <option name="outputFilters">
         <array />
       </option>
-      <option name="outputFromStdout" value="false" />
+      <option name="outputFromStdout" value="true" />
       <option name="program" value="$USER_HOME$/AppData/Roaming/npm/sass" />
       <option name="runOnExternalChanges" value="true" />
       <option name="scopeName" value="Project Files" />
       <option name="trackOnlyRoot" value="true" />
-      <option name="workingDir" value="$FileDir$" />
+      <option name="workingDir" value="$ProjectFileDir$" />
       <envs />
     </TaskOptions>
   </component>
