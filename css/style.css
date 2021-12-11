@@ -689,6 +689,15 @@ template {
   overflow: hidden;
 }
 
+.other {
+  padding: 40px 165px 70px;
+}
+.other__title {
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 57px;
+}
+
 .newsletter {
   position: relative;
   padding: 98px 0 87px 0;
